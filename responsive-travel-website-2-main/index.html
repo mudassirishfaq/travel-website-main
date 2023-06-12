@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== FAVICON ===============-->
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon.png"
+      type="image/x-icon"
+    />
+
+    <!--=============== REMIXICONS ===============-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Responsive travel website - Bedimcode</title>
+  </head>
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <div class="nav__logo">
+          <a href="#">Travel</a>
+        </div>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#Popular" class="nav__link">Popular</a>
+            </li>
+            <li class="nav__item">
+              <a href="#explore" class="nav__link">Explore</a>
+            </li>
+          </ul>
+
+          <div class="nav__close" id="nav-close">
+            <i class="ri-close-line"></i>
+          </div>
+        </div>
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="ri-menu-fill"></i>
+        </div>
+      </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home section" id="home">
+        <img
+          src="/assets/img/home-bg.jpg"
+          alt="home bg-image"
+          class="home__img"
+        />
+        <div class="home__shadow"></div>
+        <!-- Home content data -->
+        <div class="home__content container grid">
+          <div class="home__data">
+            <h3 class="home__subtitle">Welcome To Travel</h3>
+            <h1 class="home__title">Explore <br />The World</h1>
+            <p class="home__desc">
+              Live the trips exploring the world, discover paradises, islands,
+              mountains and much more, get your trip now.
+            </p>
+            <a href="#" class="btn home__btn"
+              >Start Your Journey <i class="ri-arrow-right-line"></i
+            ></a>
+          </div>
+          <div class="home__cards grid">
+            <article class="home__card">
+              <img
+                src="./assets/img/home-trees.jpg"
+                alt="home img card"
+                class="home__card__img"
+              />
+              <h3 class="home__card__title">Crotia</h3>
+              <div class="home__card__shadow"></div>
+            </article>
+            <article class="home__card">
+              <img
+                src="./assets/img/home-lake.jpg"
+                alt="home img card"
+                class="home__card__img"
+              />
+              <h3 class="home__card__title">Iceland</h3>
+              <div class="home__card__shadow"></div>
+            </article>
+            <article class="home__card">
+              <img
+                src="./assets/img/home-beach.jpg"
+                alt="home img card"
+                class="home__card__img"
+              />
+              <h3 class="home__card__title">Italy</h3>
+              <div class="home__card__shadow"></div>
+            </article>
+            <article class="home__card">
+              <img
+                src="./assets/img/home-mountain.jpg"
+                alt="home img card"
+                class="home__card__img"
+              />
+              <h3 class="home__card__title">Spain</h3>
+              <div class="home__card__shadow"></div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== ABOUT ====================-->
+      <section class="about section" id="about">
+        <div class="about__container container grid">
+          <div class="about__data">
+            <h3 class="section__title">
+              Learn More <br />
+              About Travel
+            </h3>
+            <p class="about__desc">
+              All the trips around the world are a great pleasure and happiness
+              for anyone, enjoy the sights when you travel the world. Travel
+              safely and without worries, get your trip and explore the
+              paradises of the world.
+            </p>
+            <a href="#" class="btn about_btn"
+              >Explore Travel <i class="ri-arrow-right-line"></i
+            ></a>
+          </div>
+          <div class="about__image">
+            <img src="./assets/img/about-beach.jpg" alt="" class="about__img" />
+            <div class="about__shadow"></div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== POPULAR ====================-->
+      <section class="popular section" id="Popular">
+        <h2 class="section__title">
+          Enjoy The Beauty <br />
+          Of The World
+        </h2>
+  
+        <div class="popular__container container grid">
+          <article class="popular__card">
+            <div class="pop_image">
+              <img src="./assets/img/popular-mountain.jpg" alt="" />
+              <div class="popular__shadow"></div>
+            </div>
+            <h3 class="pop__title">Logan Mountain</h3>
+            <div class="popular__location">
+              <i class="ri-map-pin-line"></i>
+              <span>Canada</span>
+            </div>
+          </article>
+          <article class="popular__card">
+            <div class="pop_image">
+              <img src="./assets/img/popular-forest.jpg" alt="" />
+              <div class="popular__shadow"></div>
+            </div>
+            <h3 class="pop__title">Spike Forest</h3>
+            <div class="popular__location">
+              <i class="ri-map-pin-line"></i>
+              <span>Ireland</span>
+            </div>
+          </article>
+          <article class="popular__card">
+            <div class="pop_image">
+              <img src="./assets/img/popular-lake.jpg" alt="" />
+              <div class="popular__shadow"></div>
+            </div>
+            <h3 class="pop__title">Garda Lake</h3>
+            <div class="popular__location">
+              <i class="ri-map-pin-line"></i>
+              <span>Italy</span>
+            </div>
+          </article>
+        </div>
+        <!--==================== EXPLORE ====================-->
+        <section class="explore section" id="explore">
+          <div class="explore__container">
+            <div class="explore__image">
+              <img src="./assets/img/explore-beach.jpg" alt="" />
+              <div class="explore__shadow"></div>
+            </div>
+            <div class="explore__content container grid">
+              <div class="explore__data">
+                <h2 class="section__title">
+                  Explore The <br />
+                  Best Paradises
+                </h2>
+                <p class="explore__desc">
+                  Exploring paradises such as islands and valleys when traveling
+                  the world is one of the greatest experiences when you travel, it
+                  offers you harmony and peace and you can enjoy it with great
+                  comfort.
+                </p>
+              </div>
+              <div class="explore__user">
+                <div class="explore___profile">
+                  <img src="./assets/img/explore-perfil.png" alt="" />
+                </div>
+                <span class="profile__name">John Micheal</span>
+              </div>
+            </div>
+          </div>
+      </section>
+     
+     
+
+      <!--==================== JOIN ====================-->
+      <section class="join section">
+        <div class="join__container container grid">
+          <div class="join__data">
+            <h2 class="section__title">
+              Your Journey <br />
+              Starts Here
+            </h2>
+            <p class="join__desc">
+              Get up to date with the latest travel and information from us.
+            </p>
+            <form action="" class="join__form">
+              <input type="text" placeholder="Enter your email" class="join__input">
+              <button class="join__button btn">
+                Subscribe to newsletter <i class="ri-arrow-right-line"></i>
+              </button>
+            </form>
+          </div>
+          <div class="join__image">
+            <img src="./assets/img/join-island.jpg" alt="">
+            <div class="join__shadow"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer"></footer>
+
+    <!--========== SCROLL UP ==========-->
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src=""></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
